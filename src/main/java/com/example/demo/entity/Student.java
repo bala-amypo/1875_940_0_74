@@ -2,6 +2,8 @@ package com.example.demo.entity;
 @entity
 @Table(name="students")
 public class Student {
+   @id
+   @GeneratedValue(strategy=GenerationType.IDENTITY)
    private long id;
    private String name;
    private String email;
