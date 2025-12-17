@@ -1,5 +1,6 @@
 package com.example.demo.entity;
 @entity
+@Table(name="students")
 public class Student {
    private long id;
    private String name;
